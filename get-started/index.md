@@ -58,6 +58,7 @@ redirect_from:
 
 Welcome! We are excited that you want to learn Docker. The _Docker Get Started Tutorial_
 teaches you how to:
+(欢迎! 我们很高兴你想学习Docker. 这个Docker入门教程教你如何:)
 
 1. Set up your Docker environment (on this page)
 2. [Build an image and run it as one container](part2.md)
