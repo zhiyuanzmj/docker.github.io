@@ -57,24 +57,28 @@ redirect_from:
 {% include_relative nav.html selected="1" %}
 
 Welcome! We are excited that you want to learn Docker. The _Docker Get Started Tutorial_
-teaches you how to:
-(欢迎! 我们很高兴你想学习Docker. 这个Docker入门教程教你如何:)
+teaches you how to:  
+欢迎! 我们很高兴你想学习Docker. 这个Docker入门教程教你如何:
 
-1. Set up your Docker environment (on this page)
-2. [Build an image and run it as one container](part2.md)
-3. [Scale your app to run multiple containers](part3.md)
-4. [Distribute your app across a cluster](part4.md)
-5. [Stack services by adding a backend database](part5.md)
-6. [Deploy your app to production](part6.md)
+1. Set up your Docker environment (on this page)  
+设置你的Docker环境 (在此页面上)
+2. [Build an image and run it as one container    **创建一个 image 然后作为一个 container 运行**](part2.md)
+3. [Scale your app to run multiple containers    **扩展你的应用程序以运行多个 container**](part3.md)
+4. [Distribute your app across a cluster    **在群集中分发您的应用**](part4.md)
+5. [Stack services by adding a backend database    **通过添加后端数据库来堆栈服务**](part5.md)
+6. [Deploy your app to production    **部署你的应用程序到生产模式**](part6.md)
 
-## Docker concepts
+## Docker 概念
 
 Docker is a platform for developers and sysadmins to **develop, deploy, and run**
-applications with containers. The use of Linux containers to deploy applications
-is called _containerization_. Containers are not new, but their use for easily
-deploying applications is.
+applications with containers.  
+__Docker 是一个开发人员和系统管理员通过 container（容器）**开发,发布与运行**应用程序的平台.__  
+The use of Linux containers to deploy applications is called _containerization_.   
+__使用Linux容器去开发的应用程序被称为 _containerization_ (容器化).__  
+Containers are not new, but their use for easily deploying applications is.  
+__容器不是新的概念，但是他们用于轻松部署应用程序__  
 
-Containerization is increasingly popular because containers are:
+Containerization is increasingly popular because containers are:  容器
 
 - Flexible: Even the most complex applications can be containerized.
 - Lightweight: Containers leverage and share the host kernel.
